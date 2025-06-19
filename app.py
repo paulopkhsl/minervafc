@@ -87,7 +87,7 @@ def get_flashcards_from_gemini(prompt):
         genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
         # Usando o modelo gemini-1.5-pro-latest, que é robusto para seguir instruções
-        model_name_to_use = 'models/gemini-1.5-pro-latest'
+        model_name_to_use = 'models/gemini-1.5-flash-latest'
         
         # Opcional: Para depuração, pode descomentar a linha abaixo para ver qual modelo está sendo usado
         # st.info(f"Usando o modelo: {model_name_to_use}")
